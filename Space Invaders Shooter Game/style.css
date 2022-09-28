@@ -1,0 +1,37 @@
+.grid {
+	width: 350px;
+	height: 350px;
+	display: grid;
+	border: 2px solid black;
+	grid-template-columns: repeat(15, 1fr);
+	grid-template-rows: repeat(15, 1fr);
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+	/*border: 1px solid black;*/
+}
+
+.invader {
+	width: 20px;
+	height: 20px;
+	background-color: purple;
+	border-radius: 50%;
+}
+
+.shooter {
+	width: 25px;
+	height: 25px;
+	background-color: orange;
+
+}
+
+.laser {
+	background-color: yellow;
+}
+
+.boom {
+	background-color: red;
+}
+
